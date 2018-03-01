@@ -21,7 +21,7 @@ public class HtmlToPDF {
 			document.addSubject("test");
 			document.addCreationDate();
 			document.addTitle("XHTML to PDF");
-
+             
 			XMLWorkerHelper worker = XMLWorkerHelper.getInstance(); 
 //将html文件转换为字符串			
 //			String xmlString;
