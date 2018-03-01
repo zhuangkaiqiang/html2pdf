@@ -22,7 +22,7 @@ public class HtmlToPDF {
 			document.addCreationDate();
 			document.addTitle("XHTML to PDF");
 
-			XMLWorkerHelper worker = XMLWorkerHelper.getInstance();
+			XMLWorkerHelper worker = XMLWorkerHelper.getInstance(); 
 //将html文件转换为字符串			
 //			String xmlString;
 //			byte[] strBuffer = null;
